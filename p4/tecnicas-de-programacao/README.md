@@ -81,3 +81,20 @@ On DevOps there is a word called **DORA (DevOps Research and Assessment)**. It c
 * Lead Time for Changes;
 * Change Failure Rate;
 * Mean Time to Restore.
+
+
+# Test Driven Development (TDD)
+## What is TDD and Tests Pyramid
+On TDD, intead of start the project on sotfware development and test after, the test are developed first, then the software itself.
+There are different test levels on TDD:
+* **Unit tests:** Check small parts of the code like functions, methods or conditions;
+* **Integration tests:** Check how modules and components on a software integrate between thenselfs;
+* **End to End test:** Simulate how the system should behave on a real scenario.
+
+## TDD's Basic Principles
+* **Red:** Initiate with a test that fails, not because if wrong, but because there is no code yet;
+* **Green:** The code created pass on the tests developed on **Red**;
+* **Refactor:** Improve the tests and the code created bafore.
+
+# Automation and Documentation of APIs
+

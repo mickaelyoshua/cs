@@ -86,6 +86,7 @@ On DevOps there is a word called **DORA (DevOps Research and Assessment)**. It c
 # Test Driven Development (TDD)
 ## What is TDD and Tests Pyramid
 On TDD, intead of start the project on sotfware development and test after, the test are developed first, then the software itself.
+
 There are different test levels on TDD:
 * **Unit tests:** Check small parts of the code like functions, methods or conditions;
 * **Integration tests:** Check how modules and components on a software integrate between thenselfs;
@@ -97,4 +98,29 @@ There are different test levels on TDD:
 * **Refactor:** Improve the tests and the code created bafore.
 
 # Automation and Documentation of APIs
+## Swagger
+Swagger is an open-source set of services that make the creation of documentation easy. In 2015, *Swagger Specification* was donated to the *OpenAI Initiative*.
+
+The main components of Swagger are:
+* **Swagger UI:** Interactive interface to create documentation of APIs that alows developers to test directly their application on the browser;
+* **Swagger Editor:** On-line editor, like an IDE, that allows to generate yaml or json files giving automatic documentation generation;
+* **Swagger Codegen:** A tool to generate code on multiple languages based on OpenAI specifications;
+* **SwaggerHub:** Collaborative platform to manage and share specifications.
+
+## Postman
+Postman is a popular and versatile tool for developers that aids in the development, testing, and documentation of applications. It allows users to create various HTTP requests, such as GET, POST, PUT, and DELETE, to validate if applications are functioning correctly.
+
+Key features include an intuitive, multi-platform interface (macOS, Windows, and Linux), and it can be used for free. Postman supports test automation with JavaScript, organization of requests into collections for different environments (like production or testing), and can even be used for API performance monitoring. Ultimately, it is a powerful tool that helps teams collaborate by sharing collections and improving testing and documentation.
+
+## API Gateway
+An API Gateway centralize the access permission to APIs and multiple functionalities like load balancing, data manipulation and rate limitation.
+
+## Docker
+Docker is a containerization platform that packages applications and their dependencies into portable units called containers. This ensures that applications run consistently across different machines and operating systems.
+
+Unlike virtual machines that emulate an entire operating system and are very large, Docker containers are lightweight (occupying megabytes instead of gigabytes) because they only include the essential components needed to run the application.
+
+For managing multi-container applications, a tool called Docker Compose is used to define and run the entire infrastructure from a single configuration file.
+
+# Application Development
 

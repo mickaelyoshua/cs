@@ -123,4 +123,25 @@ Unlike virtual machines that emulate an entire operating system and are very lar
 For managing multi-container applications, a tool called Docker Compose is used to define and run the entire infrastructure from a single configuration file.
 
 # Application Development
+## What is CI/CD?
+Continuous Integration (CI) and Continuous Deployment (CD) are the processes to integrate the codebase on a continuous and automatic whay minimizing human varification errors, ensuring more safity for the development process.
 
+## CI Tools
+* **Travis CI:** Integration tools hosted on the cloud. Used on open-source projects. Simplified configuration through yaml files to define the workflow;
+* **Jenkins:** Open souce tool, can create hosted environments on the cloud or locally. Initial configuration is more complex but is highly utilized for be versatile and customizable;
+* **GitLab CI/CD:** Tool integrated to GitLab. Simply to configure.
+
+| Critério | Travis | Jenkins | GitLab CI/CD |
+| :--- | :--- | :--- | :--- |
+| **Hospedagem** | Cloud-hosted. | Cloud or on-premise. | GitLab-hosted. |
+| **Setup Inicial** | Simple via `.travis.yml` file. | Complex; often needs DevOps team. | Simple via `.gitlab-ci.yml` file. |
+| **Custos** | Free for open-source, paid for private. | Free software; hosting costs apply. | Included in GitLab plans. |
+| **Linguagens** | Supports most languages. | Supports most languages via plugins. | Supports most languages via Docker. |
+| **Plugins** | Limited plugin library. | Extensive library (>1800 plugins). | Limited to GitLab features. |
+| **Interface** | Intuitive and simple UI. | Confusing UI, especially for beginners. | Intuitive and simple UI. |
+| **Velocidade** | Fast execution. | Depends on local resources. | Scalable with runners. |
+| **Containers** | Supports containers. | Requires plugins for containers. | Native Docker support. |
+| **Comunidade** | Popular in open-source. | Large, mature community. | Growing DevOps community. |
+| **Repositórios** | Mainly GitHub & Bitbucket. | Integrates with GitHub, Bitbucket, & GitLab. | Native GitLab integration. |
+
+# Relational Database

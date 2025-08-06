@@ -144,4 +144,10 @@ Continuous Integration (CI) and Continuous Deployment (CD) are the processes to 
 | **Comunidade** | Popular in open-source. | Large, mature community. | Growing DevOps community. |
 | **Repositórios** | Mainly GitHub & Bitbucket. | Integrates with GitHub, Bitbucket, & GitLab. | Native GitLab integration. |
 
-# Relational Database
+# Relational and Non-Relational Database
+* **Relational Database:** Works with tables where each column is an attribute and each row is an individual register. Some of the main characteristics of relational databases are the consistency on the data structure and the capability to stablish a relation between tables through primary and foreign key;
+* **Non-Relational Database:** Commonly knows as NoSQL, it can implement a variety of different models and structures:
+    * Graphs: Representation on interlinked data allowing detailed analysis of relation between data;
+    * Document Oriented: Data are stored on the JSON format where each document have its own unique key;
+    * Key-Value: Data are stored on a structure of a key-value pair where the key is a unique identifier and the value is the data;
+    * Column Model: Store data as columns. This optimize the search for big volumns of data.

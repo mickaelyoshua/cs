@@ -75,8 +75,8 @@ São os elementos gráficos mais simples que podem ser utilizados para o desenho
 
 ### Primitivas 2D
 
-![Primitivas Básicas 2D](primitivas-basicas-2d.png)
+![Primitivas Básicas 2D](./primitivas-basicas-2d.png)
 
 ### Primitivas 3D
 
-![Primitivas Básicas 3D](primitivas-basicas-3d.png)
+![Primitivas Básicas 3D](./primitivas-basicas-3d.png)

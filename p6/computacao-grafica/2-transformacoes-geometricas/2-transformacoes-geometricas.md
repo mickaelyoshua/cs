@@ -14,11 +14,11 @@ Basicamente, estamos observando um ponto pertencente à primitiva e calculando s
 
 Translação é mover um ponto no plano XY por meio da adição de um determinado valor à sua posição original.
 
-![Translação](translacao.png)
+![Translação](./translacao.png)
 
 $$P(2,2) + T[3,2] = P'(3+2,2+2) = P'(5,4)$$
 
-![Translação Genérica](translacao-generica.png)
+![Translação Genérica](./translacao-generica.png)
 
 Pela análise do gráfico, podemos dizer que:
 
@@ -64,7 +64,7 @@ $$
 
 Na transformação de escala, as coordenadas são multiplicadas por um fator escalar.
 
-![Escala](escala.png)
+![Escala](./escala.png)
 
 Assim, o fator de escala seria 2, para todos os eixos. Mas podemos usar, ainda, um fator de escala diferente para cada eixo.
 
@@ -108,7 +108,7 @@ $$
 
 O Processo de rotação envolve mais passos, mas pode ser interpretado por meio da Geometria Analítica e da Trigonometria.
 
-![Rotação](rotacao.png)
+![Rotação](./rotacao.png)
 
 Na figura acima, temos a representação dessa transformação espacial. O ponto $P(x,y)$ é o ponto original que queremos rotacionar. Perceba, ainda, que existe uma distância $r$ (raio) entre ele e a origem e um ângulo $\phi$ entre esse raio e o eixo X.
 
@@ -118,13 +118,13 @@ O objetivo é aplicar uma rotação de um ângulo $\theta$ a esse ponto específ
 
 Ao tratar de ângulos e suas distâncias para a origem, é comum utilizar o sistema de coordenadas polares.
 
-![Sistema de Coordenadas](sistema-de-coordenadas.png)
+![Sistema de Coordenadas](./sistema-de-coordenadas.png)
 
 Por se tratar de rotação, é mais simples trabalhar com coordenadas polares.
 
 Para fazer a conversão de coordenadas cartesianas para polares é utilizada a trigonometria.
 
-![Coordenadas Polares](coordenadas-polares.png)
+![Coordenadas Polares](./coordenadas-polares.png)
 
 Sendo assim:
 

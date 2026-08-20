@@ -11,7 +11,7 @@ API multiplataforma para renderização de gráficos 2D e 3D. O _pipeline_ conve
 5. **Fragment Shader**: Atribui cor aos _pixels_ na região visível.
 6. **Operações de Framebuffer**: Monta matriz da imagem final.
 
-![Pipeline OpenGL](pipeline-opengl.png)
+![Pipeline OpenGL](./pipeline-opengl.png)
 
 ## Arquivo OBJ
 

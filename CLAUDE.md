@@ -1,6 +1,6 @@
-# AGENTS.md — Ciência da Computação (Unipê / Cruzeiro do Sul - EaD)
+# CLAUDE.md — Ciência da Computação (Unipê / Cruzeiro do Sul - EaD)
 
-Guia de orientação para o Antigravity no repositório de estudos de Ciência da Computação.
+Guia de orientação para o Claude Code no repositório de estudos de Ciência da Computação.
 
 ## Sobre o Repositório
 
